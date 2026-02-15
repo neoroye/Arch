@@ -1,0 +1,177 @@
+* {
+    border: none;
+    font-family: "SF Pro Display", "JetBrainsMono Nerd Font Propo";
+    font-size: 16px;
+
+    min-height: 0;
+    margin: 0;
+    padding: 0;
+}
+
+window#waybar {
+    background: rgba(40, 42, 54, 0.15);
+    border: 0px solid #000000;
+    border-radius: 5px;
+}
+
+tooltip {
+  background: rgba(43, 48, 59, 0.5);
+  border: 1px solid rgba(100, 114, 125, 0.5);
+}
+tooltip label {
+  color: white;
+}
+
+#workspaces button {
+    padding: 0 6px;
+    margin: 0 1px;
+    background: #282a36;
+    color: #282a36;
+    border-bottom: 3px solid transparent;
+    border-radius: 5px;
+    border: 0px solid #586e87;
+}
+
+#workspaces button.active {
+    min-width: 45px;
+    color: white;
+    background: #142123;
+    border-radius: 10px;
+    border: 2px solid #eef6ff;
+}
+
+#clock {
+    font-weight: 700;
+    margin: 0 3px;
+    padding: 0 10px;
+    background: #323545;
+    border-radius: 6px;
+    border: 0px solid #586e87;
+}
+
+#battery {
+    background-color: #323545;
+    color: white;
+    padding: 0 7px;
+    margin: 0 4px;
+    border: 0px solid #284a4b;
+    border-radius: 6px;
+}
+
+#pulseaudio {
+    background-color: #323545;
+    color: #d4d991;
+    padding: 0 7px;
+    margin: 0 4px;
+    border: 0px solid #284a4b;
+    border-radius: 6px;
+}
+
+#network {
+    background: #323545;
+    color: #85c8ff;
+    padding: 0 7px;
+    margin: 0 1px;
+    border: 0px solid #586e87;
+    border-radius: 5px;
+}
+
+#tray {
+    background: #323545;
+    padding: 0 5px;
+    margin: 0 1px;
+    border: 0px solid #586e87;
+    border-radius: 8px;
+}
+
+#taskbar {
+    background: #323545;
+    padding: 0 5px;
+    margin: 0 1px;
+    border: 0px solid #eef6ff;
+    border-radius: 8px;
+}
+
+#taskbar button {
+    background: #3c3f53;
+    padding: 0 3px;
+    margin: 0 3px;
+    border: 1px solid #4a4e67;
+    border-radius: 8px;
+}
+
+#taskbar .empty {
+	background: transparent;
+}
+
+#custom-power {
+    background: #282a36;
+    color: #f28080;
+    padding: 0 7px;
+    margin: 0 5px;
+    border: 0px solid #284a4b;
+    border-radius: 5px;
+}
+
+#custom-not {
+    background: #282a36;
+    color: #fff490;
+    padding: 0 7px;
+    margin: 0 5px;
+    border: 0px solid #284a4b;
+    border-radius: 5px;
+}
+
+#memory {
+    background: #282a36;
+    color: #fffbd5;
+    padding: 0 5px;
+    margin: 0 10px;
+    border: 0px solid #284a4b;
+    border-radius: 5px;
+}
+
+#cpu {
+    background: #282a36;
+    color: lime;
+    padding: 0 10px;
+    margin: 0 10px;
+    border: 0px solid #284a4b;
+    border-radius: 5px;
+}
+
+#custom-temperature.cold {
+    background: #282a36;
+    color: yellow;
+    padding: 0 5px;
+    margin: 0 10px;
+    border: 0px solid #284a4b;
+    border-radius: 5px;
+}
+
+#custom-temperature.warm {
+    background: #282a36;
+    color: orange;
+    padding: 0 5px;
+    margin: 0 10px;
+    border: 0px solid #284a4b;
+    border-radius: 5px;
+}
+
+#custom-temperature.hot {
+	background: #282a36;
+	color: red;
+    padding: 0 5px;
+    margin: 0 10px;
+    border: 0px solid #284a4b;
+    border-radius: 5px;
+}
+
+#disk {
+    background: #282a36;
+    color: #43d9ff;
+    padding: 0 5px;
+    margin: 0 10px;
+    border: 0px solid #284a4b;
+    border-radius: 5px;
+}
