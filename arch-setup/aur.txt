@@ -1,0 +1,14 @@
+brave-bin
+bridge-utils
+catppuccin-cursors-mocha
+catppuccin-gtk-theme-mocha
+dracula-gtk-theme
+electron40-bin
+hydra-launcher-bin
+papirus-icon-theme-git
+pcsx2-latest-bin
+proton-pass-bin
+rpcs3-bin
+snake
+unityhub
+vesktop-bin
