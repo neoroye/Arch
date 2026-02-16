@@ -1,9 +1,6 @@
 # Backup Arch-Linux
 
--- /config = /.config --
+# Para informações mais detalhadas consulte a wiki:
 
-Copie as pastas de /config para dentro de sua pasta .config
 
--- /arch-setup -- 
-
-Rode install.sh dentro dela para baixar alguns pacotes
+Clone este repositório, dentro da pasta do repositório você poderá encontrar uma pasta com nome de "config", de preferência procure pelas configurações do hyprland e waybar e ajuste-as ao seu monitor, depois copie todas as pastas dentro de 
