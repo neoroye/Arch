@@ -64,7 +64,6 @@ sddm
 slurp
 smartmontools
 sof-firmware
-steam
 swaync
 swww
 system-config-printer
