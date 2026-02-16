@@ -3,7 +3,7 @@
 # Para informações mais detalhadas consulte a wiki:
 
 Comece clonando esse repositório com:
-´´´ git clone https://github.com/neoroye/Arch.git ´´´
+`git clone https://github.com/neoroye/Arch.git`
 
 # Pacotes:
 Dentro da pasta "arch-setup" terá um script "install.sh"(se não for executável use chmod +x). Execute esse script, ele irá instalar todos os pacotes necessários e uns extras para as configurações. Esta config não vem com papeis de parede por padrão.
