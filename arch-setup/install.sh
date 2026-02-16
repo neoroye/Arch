@@ -7,3 +7,5 @@ cd ..
 rm -rf paru
 sudo pacman -S --needed - < pkglist.txt
 paru -S --needed - < aur.txt
+chsh -s /usr/bin/fish
+curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
